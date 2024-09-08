@@ -35,7 +35,7 @@ function App() {
     },
     {
       id: 2,
-      question: "When did the website `Facebook` launch?",
+      question: "When was the website `Facebook` launch?",
       answers: [
         {
           text: "2004",
@@ -125,7 +125,7 @@ function App() {
 
     {
       id: 6,
-      question: 'Who wrote the novel "Pride and Prejudice"?',
+      question: 'The first male African-American tennis player to win the U.S Open and the Wimbledon tournaments was?',
       answers: [
         {
           text: "Charles Dickens",
@@ -136,7 +136,7 @@ function App() {
           correct: false,
         },
         {
-          text: "Jane Austen",
+          text: "Arthur Ashe",
           correct: true,
         },
         {
@@ -148,18 +148,18 @@ function App() {
 
     {
       id: 7,
-      question: "What is the tallest mountain in the world?",
+      question: '"The Three Bs" (Bach, Beethoven and Brahms) are iconic classical musicians who all hail from the same country. Which country is that?',
       answers: [
         {
-          text: "K2",
+          text: "China",
           correct: false,
         },
         {
-          text: "Mount Everest",
+          text: "Germany",
           correct: true,
         },
         {
-          text: "Kilimanjaro",
+          text: "United Kingdom",
           correct: false,
         },
         {
@@ -329,22 +329,22 @@ function App() {
     },
     {
       id: 15,
-      question: "What is the capital city of Nigeria?",
+      question: "Who is the shortest player in the first 70 years of NBA history to win the Slam Dunk Contest?",
       answers: [
         {
           text: "Tokyo",
           correct: false,
         },
         {
-          text: "Abuja ",
+          text: "Spud Webb ",
           correct: true,
         },
         {
-          text: " Beijing",
+          text: " Armstrong",
           correct: false,
         },
         {
-          text: "Seoul",
+          text: "Nike",
           correct: false,
         },
       ],
@@ -354,21 +354,21 @@ function App() {
   const moneyPyramid = useMemo(
     () =>
       [
-        { id: 1, amount: "$ 100" },
-        { id: 2, amount: "$ 200" },
-        { id: 3, amount: "$ 300" },
-        { id: 4, amount: "$ 500" },
-        { id: 5, amount: "$ 1.000" },
-        { id: 6, amount: "$ 2.000" },
-        { id: 7, amount: "$ 4.000" },
-        { id: 8, amount: "$ 8.000" },
-        { id: 9, amount: "$ 16.000" },
-        { id: 10, amount: "$ 32.000" },
-        { id: 11, amount: "$ 64.000" },
-        { id: 12, amount: "$ 125.000" },
-        { id: 13, amount: "$ 250.000" },
-        { id: 14, amount: "$ 500.000" },
-        { id: 15, amount: "$ 1.000.000" },
+        { id: 1, amount: "N 10.000" },
+        { id: 2, amount: "N 20.000" },
+        { id: 3, amount: "N 30.000" },
+        { id: 4, amount: "N 40.000" },
+        { id: 5, amount: "N 50.000" },
+        { id: 6, amount: "N 100.000" },
+        { id: 7, amount: "N 200.000" },
+        { id: 8, amount: "N 300.000" },
+        { id: 9, amount: "N 400.000" },
+        { id: 10, amount: "N 500.000" },
+        { id: 11, amount: "N 600.000" },
+        { id: 12, amount: "N 700.000" },
+        { id: 13, amount: "N 800.000" },
+        { id: 14, amount: "N 900.000" },
+        { id: 15, amount: "N 1.000.000" },
       ].reverse(),
     []
   );
