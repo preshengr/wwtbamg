@@ -61,7 +61,7 @@ To run this project locally, follow these steps:
 ---
 
 #### Deployment:
-The live version of this project can be accessed https://millonaires-game.netlify.app/.
+The live version of this project can be accessed [here](https://millonaires-game.netlify.app/.)
 
 ---
 
