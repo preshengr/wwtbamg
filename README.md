@@ -81,6 +81,6 @@ This project is licensed under the [MIT License](https://opensource.org/licenses
 ---
 
 #### Contact:
-For inquiries or support, please contact ulokangozi@gmail.com.
+For inquiries or support, please [Email Here](preshengr@gmail.com.)
 
 ---
