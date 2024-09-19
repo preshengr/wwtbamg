@@ -1,39 +1,39 @@
 {
-  "name": "billionaire-mind-games",
-  "version": "0.1.0",
-  "private": true,
+  "name": "billionaire-mind-games", // The name of the project
+  "version": "0.1.0", // Current version of the project
+  "private": true, // Ensures that the project is private and not published to public registries like npm
   "dependencies": {
-    "@testing-library/jest-dom": "^5.17.0",
-    "@testing-library/react": "^13.4.0",
-    "@testing-library/user-event": "^13.5.0",
-    "react": "^18.3.1",
-    "react-dom": "^18.3.1",
-    "react-scripts": "5.0.1",
-    "use-sound": "^4.0.1",
-    "web-vitals": "^2.1.4"
+    "@testing-library/jest-dom": "^5.17.0", // Jest DOM testing utilities for React components
+    "@testing-library/react": "^13.4.0", // React Testing Library for testing React components
+    "@testing-library/user-event": "^13.5.0", // Simulates user events for React component testing
+    "react": "^18.3.1", // React library for building user interfaces
+    "react-dom": "^18.3.1", // React DOM library for rendering React components in the DOM
+    "react-scripts": "5.0.1", // Create React App scripts for starting, building, and testing the app
+    "use-sound": "^4.0.1", // A hook for playing sound effects in React
+    "web-vitals": "^2.1.4" // Tool for measuring web performance metrics (like loading speed, interactivity)
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "react-scripts start", // Script to start the development server
+    "build": "react-scripts build", // Script to bundle and build the project for production
+    "test": "react-scripts test", // Script to run tests
+    "eject": "react-scripts eject" // Script to eject from Create React App's configuration (use with caution)
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app", // Extends ESLint configuration with rules for React apps
+      "react-app/jest" // ESLint rules specific to Jest (testing) environment
     ]
   },
   "browserslist": {
     "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
+      ">0.2%", // Supports browsers with more than 0.2% market share in production
+      "not dead", // Excludes browsers that are no longer supported
+      "not op_mini all" // Excludes Opera Mini from support
     ],
     "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
+      "last 1 chrome version", // During development, supports only the last version of Chrome
+      "last 1 firefox version", // Supports only the last version of Firefox
+      "last 1 safari version" // Supports only the last version of Safari
     ]
   }
 }
